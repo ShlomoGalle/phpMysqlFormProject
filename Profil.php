@@ -1,7 +1,7 @@
 <?php
 session_start();
  
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=u327085864_havafloserveur', 'u327085864_havafloserveur', '?c6ToaW^Q1');
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=', '', '');
 
 if(isset($_POST['deconnexion']))
 {
